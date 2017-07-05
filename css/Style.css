@@ -3,8 +3,10 @@
         height: 100%;
         margin: 0;
         padding: 0;
-        background-color: #FAFAFA;
+        background-color: black;
         font-family: 'Lato', sans-serif;
+        font-size: 1em;
+        color: #444;
     }
     * {
         box-sizing: border-box;
@@ -15,7 +17,7 @@
         min-height: 297mm;
         padding: 20mm;
         margin: 10mm auto;
-        background: white;
+        background: #ededed;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     }
     .subpage {
@@ -49,14 +51,17 @@
         /*background: #deebf7;*/
         float: left; 
         position: relative;
+        color: #cf8a05;
+        font-style: italic;
+        font-size : 1.5em;
+
     }
 
     .info{
-        height: 40mm;        
+        height: 20mm;        
     }
 
     .info-panel {
-        width: 55mm;
         float: left;
         height: 100%;        
         position: relative;
@@ -108,5 +113,7 @@
     .timeline-date{
         float: left;
         width: 32mm;
-        text-align: right;       
+        text-align: right;   
+        font-size: 0.8em;
+        color: #444    
     }
