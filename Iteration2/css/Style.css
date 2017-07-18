@@ -1,0 +1,112 @@
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        /*background-color: black;*/
+        font-family: Merriweather;
+        font-size: 1em;
+        color: #444;
+    }
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    h5{
+        color: #444;
+        margin: 0;
+    }
+     
+
+    hr{
+        border-top: 2px solid  #8c8b8b;
+    }
+
+    p, li{
+        margin-top: 1mm;
+        padding: 0;
+        font-size: 12px;
+        color: #444;        
+        font-style: normal;
+    }
+
+    /* Paging Classes */
+    .page {
+        width: 210mm;
+        min-height: 297mm;
+        padding: 15mm;
+        margin: 10mm auto;
+        background: #ededed;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .subpage {
+        height: 257mm;
+    }
+    
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;        
+        }
+        .page {
+            margin: 0;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;
+        }
+    }  
+
+    /* Centering Classes */
+    .ver-center {
+        position: absolute;
+        top: 50%;  
+        margin-right: -50%;
+        transform: translate(0, -50%)
+    }
+    .center {
+        position: absolute;     
+        top: 50%;             
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    /* Custom classes */
+    .heading{
+        font-size: 12px;
+        font-family: 'Open Sans';
+        color: #2079c7;
+        background-color: transparent;
+        font-weight: 700;
+        font-style: normal;
+        font-variant: normal;
+        text-decoration: none;
+    }
+        
+    .img-circle {
+        border-radius: 50%;
+    }
+
+    .info {
+        width: 100%;
+        height: 25mm; 
+        margin-bottom: 2mm;
+        background: #deebf7;
+        position: relative;        
+    }
+
+    .info-panel{
+        float: left;
+    } 
+
+    
+
+    
