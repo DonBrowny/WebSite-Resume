@@ -51,11 +51,11 @@
 
     .leftbox, .timeline, .projects{
         width: 40mm;
-        height: 100%;
+        height: 100%; 
         /*background: #deebf7;*/
         float: left; 
         position: relative;
-        color: #cf8a05;
+        color: #2079c7;
         font-style: italic;
         font-size : 1.5em;
 
